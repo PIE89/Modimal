@@ -1,0 +1,30 @@
+.mobile-sub {
+  //   padding: 24px 0 16px;
+
+  max-height: 0px;
+
+  transition: all 0.2s ease-in;
+}
+
+.mobile-sub-list {
+  display: grid;
+  gap: 16px;
+}
+
+.mobile-sub-list__item {
+  padding-top: 7px;
+  padding-left: 35px;
+}
+
+.mobile-sub-list__link {
+  display: inline-block;
+  width: 100%;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  text-transform: capitalize;
+  color: #404040;
+
+  cursor: pointer;
+}

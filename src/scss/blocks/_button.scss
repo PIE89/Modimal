@@ -1,0 +1,27 @@
+.button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: capitalize;
+  text-align: center;
+  color: #0c0c0c;
+
+  background-color: #fff;
+  padding: 8px 67px;
+  display: inline-block;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background-color: #0c0c0c;
+    color: #fff;
+  }
+
+  @media (max-width: 1218px) {
+    padding: 8px 30px;
+  }
+
+  @include mobileXS {
+    padding: 8px 16px;
+  }
+}

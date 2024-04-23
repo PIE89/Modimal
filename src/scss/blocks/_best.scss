@@ -1,0 +1,36 @@
+.best {
+  padding-top: 88px;
+
+  @include mobile {
+    padding-top: 24px;
+  }
+}
+
+.best__title {
+  margin-bottom: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.best__title-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: capitalize;
+  color: #5a6d57;
+
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.best__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}

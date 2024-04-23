@@ -1,0 +1,73 @@
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.color-0C0C0C {
+  background-color: #0c0c0c;
+}
+
+.color-7DC3EB {
+  background-color: #7dc3eb;
+}
+
+.color-748C70 {
+  background-color: #748c70;
+}
+
+.color-909225 {
+  background-color: #909225;
+}
+
+.color-19418E {
+  background-color: #19418e;
+}
+
+.color-D0A5EA {
+  background-color: #d0a5ea;
+}
+
+.color-ffffff {
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}

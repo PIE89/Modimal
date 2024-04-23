@@ -1,0 +1,35 @@
+.hero {
+  height: 600px;
+  padding: 103px 0;
+  background-color: #ffffff;
+  background-image: url("./../img/bg/hero.jpg");
+
+  @include mediaBg() {
+    background-image: url("./../img/bg/hero@2x.jpg");
+  }
+
+  background-position: 30% center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+
+  @include mobile {
+    height: 551px;
+  }
+}
+
+.hero__wrapper {
+  max-width: 494px;
+
+  @media (max-width: 1218px) {
+    max-width: 168px;
+  }
+}
+
+.hero__title {
+  margin-bottom: 27px;
+}

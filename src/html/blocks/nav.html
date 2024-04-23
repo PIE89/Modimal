@@ -1,0 +1,52 @@
+<nav class="nav">
+  <div class="container">
+    <div class="nav__row">
+      <div class="nav__mobile-field">
+        <div class="mobile-nav-btn">
+          <button class="nav-icon"></button>
+        </div>
+        <a href="#!" class="nav__icons-links">
+          <svg class="icon icon--search">
+            <use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+          </svg>
+        </a>
+      </div>
+
+      @@include('./elements/logo.html')
+
+      <ul class="nav__list">
+        <li><a href="#!" class="nav__link">Collection</a></li>
+        <li><a href="#!" class="nav__link">Modiweek</a></li>
+        <li><a href="#!" class="nav__link">Plus Size</a></li>
+        <li><a href="#!" class="nav__link">Sustainability</a></li>
+      </ul>
+
+      <div class="nav__icons">
+        <a href="#!" class="nav__icons-links">
+          <svg class="icon icon--search">
+            <use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+          </svg>
+        </a>
+
+        <a href="#!" class="nav__icons-links">
+          <svg class="icon icon--person">
+            <use href="./img/svgsprite/sprite.symbol.svg#person"></use>
+          </svg>
+        </a>
+
+        <a href="#!" class="nav__icons-links">
+          <svg class="icon icon--favorite">
+            <use href="./img/svgsprite/sprite.symbol.svg#favorite"></use>
+          </svg>
+        </a>
+
+        <a href="#!" class="nav__icons-links">
+          <svg class="icon icon--bag">
+            <use href="./img/svgsprite/sprite.symbol.svg#bag"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+@@include('mobile-nav.html')

@@ -1,0 +1,33 @@
+.tagline {
+  background-color: #5a6d57;
+  padding: 8px 0 7px;
+  text-align: center;
+
+  position: relative;
+  z-index: 199;
+
+  @include mobile {
+    padding: 0;
+  }
+}
+
+.tagline__link {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  color: #fff;
+
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @include mobile {
+    display: block;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: unset;
+    font-weight: 400;
+  }
+}

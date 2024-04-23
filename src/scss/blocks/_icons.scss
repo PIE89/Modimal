@@ -1,0 +1,34 @@
+.icon {
+  fill: transparent;
+  stroke: transparent;
+  width: 24px;
+  height: 24px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.icon--search {
+  fill: #0c0c0c;
+}
+
+.icon--person {
+  fill: #0c0c0c;
+}
+
+.icon--favorite {
+  fill: white;
+  stroke: #202020;
+
+  &:hover {
+    fill: #c30000;
+    stroke: none;
+  }
+}
+
+.icon--bag {
+  fill: #0c0c0c;
+}
+
+.icon--arrow-down {
+  fill: #0c0c0c;
+}

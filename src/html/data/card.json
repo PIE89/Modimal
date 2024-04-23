@@ -1,0 +1,50 @@
+[
+  {
+    "img": "best-01",
+    "status": "new",
+    "title": "tailored stretch",
+    "info": "turn it up pants",
+    "price": 180,
+    "colors": ["color-0C0C0C", "color-7DC3EB", "color-748C70"]
+  },
+  {
+    "img": "best-02",
+    "status": "new",
+    "title": "Technical Silk",
+    "info": "Make A Splash",
+    "price": 120,
+    "colors": ["color-909225", "color-19418E", "color-0C0C0C"]
+  },
+  {
+    "img": "best-03",
+    "status": "-50%",
+    "title": "Cool Weave",
+    "info": "Anywhere Dress",
+    "price": 210,
+    "colors": ["color-D0A5EA", "color-909225", "color-748C70"]
+  },
+  {
+    "img": "best-04",
+    "status": "-80%",
+    "title": "Cool Dress",
+    "info": "Anywhere Dress",
+    "price": 210,
+    "colors": ["color-ffffff", "color-0C0C0C", "color-748C70"]
+  },
+  {
+    "img": "best-05",
+    "status": "New",
+    "title": "Cool Blause",
+    "info": "Anywhere Dress",
+    "price": 210,
+    "colors": ["color-7DC3EB", "color-ffffff", "color-748C70"]
+  },
+  {
+    "img": "best-06",
+    "status": "Fit",
+    "title": "Summer Dress",
+    "info": "Anywhere Dress",
+    "price": 210,
+    "colors": ["color-ffffff", "color-909225", "color-748C70"]
+  }
+]

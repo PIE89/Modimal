@@ -1,0 +1,22 @@
+<section class="best">
+  <div class="container">
+    <div class="best__title">
+      <h2 class="title-2">Best Sellers</h2>
+
+      <button class="best__title-btn">view all</button>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        @@loop('./elements/card.html', './data/card.json')
+      </div>
+
+      <div class="swiper-pagination best__pagination">
+        <button class="best__pagination-point"></button>
+        <button class="best__pagination-point"></button>
+        <button class="best__pagination-point"></button>
+        <button class="best__pagination-point"></button>
+      </div>
+    </div>
+  </div>
+</section>
